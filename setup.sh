@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 sudo apt-get install -yq curl chromium git vim
 
-curl -o adafruit-trinket.rules https://raw.githubusercontent.com/FollyEngine/circuitplayground/master/adafruit-trinket.rules
+curl -o adafruit-trinket.rules http://fi.gy/adafruit-trinket.rules
 sudo cp adafruit-trinket.rules /etc/udev/rules.d/
 
 #   sudo reload udev
