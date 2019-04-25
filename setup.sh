@@ -12,4 +12,12 @@ sudo cp adafruit-trinket.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules
 sudo udevadm trigger
 
-sudo adduser $USER adm
+if ! getent passwd planting; then
+	sudo adduser $USER sudo
+	sudo adduser $USER dialout
+	sudo adduser $USER adm
+	sudo adduser --ingroup dialout --disabled-password planting
+	sudo adduser planting adm
+fi
+
+
