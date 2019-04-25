@@ -1,9 +1,9 @@
 #!/bin/bash
 
-apt-get update
-apt-get install -yq curl
+sudo apt-get update
+sudo apt-get install -yq curl
 
-curl -o adafruit-trinket.rules https://raw.githubusercontent.com/adafruit/Trinket_Arduino_Linux/master/99-adafruit-boards.rules
+curl -o adafruit-trinket.rules https://raw.githubusercontent.com/FollyEngine/circuitplayground/master/adafruit-trinket.rules
 sudo cp adafruit-trinket.rules /etc/udev/rules.d/
 
 #   sudo reload udev
