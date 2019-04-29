@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get --yes upgrade
+sudo apt-get --yes dist-upgrade
 sudo apt-get --yes install curl chromium git vim
 
 curl -o adafruit-trinket.rules http://fi.gy/adafruit-trinket.rules
