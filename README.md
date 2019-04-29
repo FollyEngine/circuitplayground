@@ -18,7 +18,7 @@ Then update the ciruit playground's firmware - see [https://learn.adafruit.com/m
 
 > *NOTE:* WebUSB is enabled on Chrome and Chromium - not firefox
 
-use [https://makecode.adafruit.com/?webusb=1#editor](https://makecode.adafruit.com/?webusb=1#editor) to use the webUSB connection
+use [https://makecode.adafruit.com/?webusb=1#](https://makecode.adafruit.com/?webusb=1#) to use the webUSB connection
 
 ## Sources
 
